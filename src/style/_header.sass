@@ -1,0 +1,57 @@
+.dashboard
+	display: flex
+	align-items: center
+	justify-content: space-between
+	h1
+		font-size: 24px
+		line-height: 36px
+		display: block
+		align-items: center
+		letter-spacing: 0.01em
+		margin: 0
+		padding: 0
+		width: 152px
+		height: 35px
+
+.filterandbutton
+	display: flex
+	align-items: center
+	.filter	
+		font-size: 12px
+		line-height: 18px
+		letter-spacing: 0.01em
+		color: #6A707E
+		position: relative
+
+		p 
+			margin: 0
+		span
+			color: blue
+		.dropdown__menu
+			position: absolute
+			list-style-type: none
+			display: none
+			padding: 5px
+			margin: 0
+			width: 100%
+			background: #FFFFFF
+			border-radius: 5px
+		&:hover
+			.dropdown__menu
+				display: block
+	
+
+.button
+	width: 35px
+	height: 35px
+	background: #0148F5
+	box-shadow: 0px 4px 10px rgba(0, 75, 255, 0.24)
+	border-radius: 4px
+	display: flex
+	align-items: center
+	justify-content: center
+	margin-left: 39px
+	border: none
+	cursor: pointer
+	&:hover
+		background: #bb2cd3
